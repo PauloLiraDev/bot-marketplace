@@ -15,6 +15,7 @@ bot_marketplace/
 │   └── validators/
 │       ├── __init__.py        # Inicializador do módulo de validação
 │       └── process_entry.py   # Validação de processos e marketplaces
+|       └── order_validator.py   # Validador dos pedidos processados.
 ├── tests/
 │   ├── __init__.py            # Inicializador do módulo de testes
 │   └── test_main.py           # Testes unitários para o arquivo main.py
