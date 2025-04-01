@@ -15,7 +15,7 @@ bot_marketplace/
 │   └── validators/
 │       ├── __init__.py        # Inicializador do módulo de validação
 │       └── process_entry.py   # Validação de processos e marketplaces
-|       └── order_validator.py   # Validador dos pedidos processados.
+|       └── order_validator.py   # Valida se os pedidos processados seguem os padrões e tipagens exigidas para o banco relacional.
 ├── tests/
 │   ├── __init__.py            # Inicializador do módulo de testes
 │   └── test_main.py           # Testes unitários para o arquivo main.py
@@ -33,6 +33,7 @@ bot_marketplace/
   - **constants.py**: Constantes utilizadas em todo o projeto.
   - **validators/**: Diretório com a lógica de validação.
     - **process_entry.py**: Valida os processos e marketplaces recebidos como entrada.
+    - **order_validator**: Valida se os pedidos processados seguem os padrões e tipagens exigidas para o banco relacional.
 
 - **tests/**: Contém os testes unitários do projeto.
   - **test_main.py**: Testes para as funcionalidades do arquivo `main.py`.
