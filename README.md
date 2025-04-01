@@ -46,4 +46,4 @@ MongoDB (NoSQL) → Armazenamento inicial dos dados brutos dos marketplaces.
 
 PostgreSQL (Relacional) → Armazenamento dos dados padronizados.
 
-Docker (Container) → Para que o projeto possa ser executado em qualquer S.O. (Desenvolvi em Linux, caso haja problemas na instalação convencional em Windows, sugiro seguir as orientações de execução por docker seguindo o docker_run.md)
+Docker (Container) → Para que o projeto possa ser executado na AWS Lambda.
