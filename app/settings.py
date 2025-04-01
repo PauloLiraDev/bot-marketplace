@@ -1,4 +1,4 @@
-TESTING = True
+TESTING = False
 SQL = 'postgres'
 NO_SQL = "mongodb"
 REGISTERED_PROCESSES = ["get", "treat", "cancel", 'to_spreadsheet']

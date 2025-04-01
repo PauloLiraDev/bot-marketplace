@@ -16,7 +16,8 @@ def run(event:dict, context=None):
     :param context: parâmetro obrigatório na AWS Lambda, mas não utilizado aqui.
     """
     try:
-        settings.TESTING = event.get('testing', 'False')
+        settings.TESTING = event.get('testing', False)
+        print('Ambiente atual:', 'TEST' if settings.TESTING else 'PROD')
         process = event.get('process', '').lower()
         marketplace = event.get('marketplace', '').lower()
         

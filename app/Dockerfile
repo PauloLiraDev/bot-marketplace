@@ -1,16 +1,9 @@
-# Use a lightweight Python image
-FROM python:3.10-slim
-
-WORKDIR /app
-
-COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
+# Docker para execução no Lambda AWS
+FROM public.ecr.aws/lambda/python:3.12
 
 COPY . .
-
-ENV MONGO_URI=''
-ENV POSTGRES_URI=''
+RUN pip install -r requirements.txt
 
 
 # Command to run the application
-CMD ["python", "tests.py"]
+CMD ["main.run"]
