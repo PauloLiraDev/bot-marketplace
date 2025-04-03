@@ -1,3 +1,5 @@
+**MarketSync Bot**
+
 **Automação Gerenciadora de Loja em Marketplaces**
 
 **Visão Geral**
